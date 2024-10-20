@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Fadly/Juara Coding/SQA/sqabatch18/ujian-saucedemo/src/test/java/com/juaracoding/LoginTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginTest">
+                <methods>
+                    <include name="testDisplayImgCompanyBranding"/>
+                    <include name="testValidLogin"/>
+                    <include name="testInvalidLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Fadly/Juara Coding/SQA/sqabatch18/ujian-saucedemo/src/test/java/com/juaracoding/CartTest.java">
+        <classes>
+            <class name="com.juaracoding.CartTest">
+                <methods>
+                    <include name="testAddItemToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
